@@ -1,4 +1,4 @@
-# Sensor_Documentation
+# Sensor Documentation
 
 The PhyPiDAQ project aims to provide student access to state-of-the-art measurement technology and data acquisition 
 tools. As it is based on standardized protocols and hardware, it can not only be cheaper to set up than similar offers 
