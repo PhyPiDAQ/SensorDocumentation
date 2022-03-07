@@ -1,5 +1,7 @@
 # Sensor Documentation
 
+Status: **Work in progress**
+
 ## Summary in English language
 
 The PhyPiDAQ project aims to provide students access to state-of-the-art measurement technology and data acquisition
