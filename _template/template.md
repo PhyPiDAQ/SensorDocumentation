@@ -9,7 +9,7 @@ The sensor can measure the following units with their precision:
 
 **module**:   phypidaq/xxxConfig.py  
 **sensor config**: config/xxx.yaml  
-**examples**: examples/read_xxx.py,  examples/config_files/xxx.daq  
+**examples**: examples/read_xxx.py,  examples/config_files/xxx.daq  he 
 
 ## Requirements
 
