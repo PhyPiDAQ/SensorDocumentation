@@ -7,6 +7,10 @@ The sensor can measure the following units with their precision:
 - Voltage (+/- 0.5V)
 - Resistance (+/- 0.01 Ohm)
 
+**module**:   phypidaq/xxxConfig.py  
+**sensor config**: config/xxx.yaml  
+**examples**: examples/read_xxx.py,  examples/config_files/xxx.daq  
+
 ## Requirements
 
 List here all the stuff, that is required to use the sensor, which isn't I2C or SPI wiring or the board, that it will be
