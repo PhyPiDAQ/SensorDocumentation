@@ -46,5 +46,12 @@ The sensor only needs very minimalistic code to directly read data from the I²C
 The GDK101 is a very robust and easy-to-use device. Rather long measurement times of
 multiples of 10 min are necessary to obtain acceptable precision. A measurement of Radon
 decay products collected on the surface of a charged balloon is easily possible, and the
-decrease as a function of time of the count rate can be convincingly demonstrated.  
+decrease as a function of time of the count rate can be convincingly demonstrated, as shown
+in the picture below.
+
+  ![Fig.1: Gamma rate of Radon decay products on a balloon (charged by rubbing) as a function of time, 
+  recorded with a GDK101 device and the configuration *GDK101_GammaRate.daq*. 
+  The blue curve shows the number of counts per minute,  the green curve is the 10-minute 
+  sliding average.]( images/Radon_onBalloon.png)
+
 
