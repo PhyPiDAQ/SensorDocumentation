@@ -10,8 +10,7 @@ frequency of the power grid can completely averaged out.
 A second useful application is the determination of the true effective voltage of an alternating signal - at true RMS voltmeter. 
 
 The interface to *PhyPiDAQ* is provided by the code in the package 
-[picoDAQ](https://github.com/GuenterQuast/picoDAQ).
-
+[picoDAQ](https://github.com/GuenterQuast/picoDAQ).  
 
 As an example, the the configuration file *NoiseMeter.daq*  to measure the effective 
 voltage of a sound signal, i. e. a signal proportional to the recorded  acoustic noise or 
@@ -80,7 +79,11 @@ The *Python* script *runOsci.py* provides provides a simple waveform display.
 
 ## Requirements
 
-Picotech USB oscilloscopes are supported by the package [picoDAQ](https://github.com/GuenterQuast/picoDAQ).
+Picotech USB oscilloscopes are supported by the package [picoDAQ](https://github.com/GuenterQuast/picoDAQ). For the Raspberry Pi, only beta-versions of the basic libraries of the software development
+kit are provided by PicoTech, supporting dedicated applications to be written. As it is not easy to
+find the neccessary hadware drivers, they are provided in the subdirectory
+`installlibs/picoscopelibs/` and can be installed optinally as a part of the set-up procedure for the
+*PhyPiDAQ* package.
 
 
 ## Experience
