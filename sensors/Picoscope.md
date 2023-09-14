@@ -85,6 +85,9 @@ find the neccessary hadware drivers, they are provided in the subdirectory
 `installlibs/picoscopelibs/` and can be installed optinally as a part of the set-up procedure for the
 *PhyPiDAQ* package.
 
+*__Note__*: the cheap PicoScope 220xA models (unfortunately) do not work with Raspberry Pi4 - use a 
+Rapsperry Pi3 instead !
+
 
 ## Experience
 
