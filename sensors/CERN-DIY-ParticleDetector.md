@@ -31,15 +31,17 @@ trigger point. A rate history is also shown. The script also offers the possibil
 times in a file for off-line analysis, or to only visualize a sub-set of triggering pulses if the rate
 is very high. 
 
-![Fig.1: Graphical display showing data acquisition with a small sample of pitchblende ore.](PoissonEventDisplay.png)
+![Fig.1: Graphical display showing data acquisition with a small sample of pitchblende ore, recorded with
+a LogiLink USB soundcard. An average count rate of about 5 signals in 5 s intervals is observed.   
+The displayed typical waveform of the detector has  ](images/PoissonEventDisplay.png)
 
 Data of this kind offer a unique opportunity to study random Poisson processes.  There is a script
 *phypidaq/examples/poissonFlash* to generate, visualize and store data of a simulated Poisson process. 
 
 *phypidaq/examples/poissonLED* produces random flashes of a LED. A photodiode exposed to the light
 of the LED will produce signals analogous to  a detector for gamma rays.  
-
-
+ 
+ 
 ## Experience
 
 The CERN DIY particle detector  is a very robust and easy-to-build design. All needed components, including the 
